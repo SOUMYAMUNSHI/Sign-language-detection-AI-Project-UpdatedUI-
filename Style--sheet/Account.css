@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E2E2D7;
+}
+
+.header {
+    background-color: #3498DB;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+}
+
+.header__navbar > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding:10px;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover
+{
+    background-color: #E1F5FE;
+}
+#Account
+{
+    display: inline-block;
+    color: black;
+    cursor:pointer;
+    width:80px;
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#Account:hover
+{
+    background-color: #E1F5FE;
+}
+.Account__container
+{
+    background-color: #3498DB;
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid red; */
+}
+.Image__Container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+    /* border: 1px solid black; */
+}
+.Account__data
+{
+    background-color: #ECEFF1;
+    margin-top:10%;
+    margin:0 auto;
+    width:900px;
+    height: 400px;
+}
+.Extra__space
+{
+    width: 400px;
+    height:150px;
+    /* border:1px solid black; */
+    margin:0 auto;
+}
+.Account__data > p
+{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.Action__button
+{
+    width:400px;
+    margin:0 auto;
+    margin-top:80px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+#password__forgot
+{
+    width:20px;
+    font-size: 25px;
+    text-decoration: none;
+    color:#757575;
+}
+#password__reset
+{
+    width:20px;
+    font-size: 25px;
+    text-decoration: none;
+    color:#757575;
+}
+#logout
+{
+    width:20px;
+    font-size: 25px;
+    text-decoration: none;
+    color:#757575;
+}
+.footer
+{
+    background-color: #3498DB;
+    height:200px;
+    padding-top:50px;
+}
+.footer
+{
+    display:flex;
+    justify-content: space-around;
+}

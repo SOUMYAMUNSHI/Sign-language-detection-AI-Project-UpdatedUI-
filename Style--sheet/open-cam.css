@@ -1,0 +1,147 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    width:100%;
+    height:120vh;
+    position:fixed;
+    z-index: -1;
+    background: url("../Image/Background/Background-image.jpg");
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    z-index: -1;
+}
+.main__div
+{
+    /* width:auto; */
+    display: inline-block;
+}
+.main__div-welcome
+{
+    font-family:"Poppins", sans-serif;
+    color:#FAFAFA;
+    margin-left: 5%;
+    margin-top:5%;
+    width: 100%;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(57),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor
+{
+    50% {border-color:transparent}
+}
+@keyframes typing
+{
+    from {width: 0}
+}
+
+
+.Instruction__div
+{
+    width:600px;
+    height:100vh;
+    /* border:1px solid white; */
+    /* margin-left:5%; */
+    position:absolute;
+    animation-name: slideInFromLeft;
+    animation-duration: 2s;
+}
+.main__div-instruction
+{
+    margin-left: 5%;
+    font-family:"Poppins", sans-serif;
+    color:#EEEEEE;
+}
+@keyframes slideInFromLeft{
+    from {
+        left: -500px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+
+.header
+{
+    width:100%;
+    /* position:fixed; */
+}
+.nav__bar
+{
+    background-color: #3498DB;
+    padding:5px;
+}
+.nav__bar > a
+{
+    text-decoration: none;
+}
+.nav__bar > a > i
+{
+    font-size: 20px;
+    color:black;
+    border:1px solid black;
+    width: 50px;
+    padding:5px;
+    background-color: white;
+    border-radius: 5px;
+    text-align:center
+}
+
+
+
+
+/* #videoElement
+{
+    margin-top: 5px;
+    margin-left: 24%;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.camera_close-botton
+{
+    text-align:center;
+    padding:10px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: white;
+    border:none;
+    margin-left: 50%;
+    border: 1px solid black;                                        //This portion is for video element and button--now its not present in real project--Keeping it for future references
+}
+.camera_close-botton > i
+{
+    text-align: center;
+    font-size: 30px;
+    color:#3498DB;
+}
+.camera_close-botton > i:hover
+{
+    color:red;
+    cursor:pointer;
+} */
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top:90vh;
+}
+.footer
+{
+    background-color: #3498DB;
+    /* margin-top:100vh; */
+    height:200px;
+    padding-top:50px;
+}
